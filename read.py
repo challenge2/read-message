@@ -4,3 +4,5 @@ with open('reviews.txt', 'r') as f:
         data.append(line.strip())
 
 print(len(data))
+
+print(data[0])
